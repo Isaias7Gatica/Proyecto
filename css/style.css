@@ -1,0 +1,67 @@
+body {
+    font-family: cursive;
+    font-weight: 200;
+    letter-spacing: .05rem;
+}
+.col-sm-1{
+    background-color: rgb(233, 166, 79);
+}
+
+.col-sm-3{
+    color:antiquewhite;
+}
+
+.col-sm-11  {
+    background-color: rgb(245, 194, 128);
+}
+
+.col-sm-12  {
+    background-color: rgb(192, 121, 28);
+}
+
+.button {
+    color: #1b1b1b;
+}
+
+.navbar{
+    min-height: 5rem;
+}
+.nav-link {
+    margin-left: 2rem ;
+}
+
+.nav-item :hover {
+    background-color:rgb(223, 161, 81);
+}
+
+.fa-solid :hover {
+    transition: all;
+    rotate: 360;
+}
+.sideways {
+    writing-mode: vertical-lr;
+    display: block;
+    margin: 3.5rem 0;
+}
+
+.btn-dark {
+    background-color: transparent;
+    border: 1px solid burlywood;
+    border-radius: 2;
+    color: #1b1b1b;
+    padding: .7rem 2.5rem ;
+    font-size: 1.25rem;
+}
+
+.border-right {
+    border-right: 4px solid rgb(256, 256, 256, .1) !important ;
+}
+
+@media (max-widht: 1199.98px) {
+    .sideways {
+        margin: 2rem 0;}
+    
+    .lead-xl {
+        font-size: 1.25rem;
+    }
+}
